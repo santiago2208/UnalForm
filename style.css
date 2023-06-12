@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    /* cambiar fuente de la letra */
+    max-width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.lineaIzquierda{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background-color: black;
+    left: 5vw;
+}
+
+.contHeader{ /* seccion header*/
+    margin: 0 auto;
+    padding-left: 80px;
+}
+
+
+header{ 
+    
+    height: 20vh;
+}
+
+.contlogo{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.lineaSuperior{
+    position: absolute;
+    height: 30px;
+    width: 60vw;
+    background-color: #FC741C;
+    top: 5vh;
+    left: 0px;
+}
+
+header img{
+    position: absolute;
+    height: 10vh;
+    top: 0px;
+}
+
+
+header div {
+    width: auto;
+    height: 76px;
+}
+
+header h2{
+    margin-top: 16px;
+    font-size: 35px;
+}
+
+header h1{
+    margin-top: 5px;
+    font-size: 37px;
+    color: #FC741C;
+}
+
+main{
+    margin: 0 auto;
+    margin-left: 100px;
+}
+
+.targetas{
+    width: 450px;
+    height: 200px;
+    border-radius: 5%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.targetas div{
+    width: 50%;
+    height: 100%;
+}
+
+.contRol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rolImagen{
+    background-color: #FC741C;
+    border-radius: 10%;
+}
+
+.rolImagen img{
+    position: relative;
+    height: 80%;
+    
+}
+
+.img1{
+    bottom: 140px;
+}
+.img2{
+    top: 24px;
+    left: 70px;
+}
+
+.estudiantes{
+    top: 25px;
+    left: 35px;
+}
+
+.cient1{
+    top: 24px;
+    left: 20px;
+}
+
+.cient2{
+    bottom: 140px;
+    left: 85px;
+}
+
+.rolImagen:hover {
+    border: solid 1px black;
+    box-shadow: 0px 0px 1px 5px #fc761ca8;
+}
+
+@media (min-width: 600px) {
+
+  
+    
+    .lineaSuperior{
+        position: absolute;
+        height: 30px;
+        width: 60vw;
+        background-color: #FC741C;
+        top: 5vh;
+        left: 0px;
+    }
+    
+    
+
+    .contHeader{ /* seccion header*/
+        margin: 0 auto;
+        margin-top: 10px;
+        padding-left: 100px;
+        
+    }
+
+
+    main{
+        margin: 0 auto;
+        margin-left: 140px;
+    }
+
+
+}
+
+
+@media (min-width: 1050px) {
+
+  
+    
+    .lineaSuperior{
+        position: absolute;
+        height: 30px;
+        width: 75vw;
+        background-color: #FC741C;
+        top: 5vh;
+        left: 0px;
+    }
+    
+    
+
+    .contHeader{ /* seccion header*/
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding-left: 100px;
+        margin-bottom: 10px;
+        
+    }
+
+
+    main{
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-left: 140px;
+    }
+
+    .conteTargetas1, .conteTargetas2 {
+        display: flex;
+    }
+
+
+}
+
